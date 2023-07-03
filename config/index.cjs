@@ -13,8 +13,6 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '6b80105516b8caae5079c2b9d40c4268',
   
-PROVINCE: '安徽',
-CITY: '宿州',
 
   USERS: [
     {
@@ -63,30 +61,4 @@ CITY: '宿州',
 
 }
 
-module.exports = USER_CONFIG
 
-
-/* eslint-disable */
-const TEMPLATE_CONFIG = [
-  {
-    id: '0001',
-    title: '亲爱的, 早上好',
-    desc: `
-      **{{date.DATA}}**
-      
-      下个休息日：{{holidaytts.DATA}}
-      
-      ---
-      
-      城市：{{city.DATA}}
-      
-      天气：{{weather.DATA}}
-      
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
-      
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
-      
-      {{comprehensive_horoscope.DATA}}
-      
