@@ -65,4 +65,4 @@ const USER_CONFIG = {
 
 module.exports = USER_CONFIG
 
-https://devapi.qweather.com/v7/weather/3d?location=101010100&key=4dbb62b4128b43ab84cec3b4ad505ac8
+
