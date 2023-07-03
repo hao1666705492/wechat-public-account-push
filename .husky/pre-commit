@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
+4dbb62b4128b43ab84cec3b4ad505ac8
 lint-staged
